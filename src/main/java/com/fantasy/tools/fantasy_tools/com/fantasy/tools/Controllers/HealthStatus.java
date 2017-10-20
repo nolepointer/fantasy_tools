@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HealthStatus {
 
-    @RequestMapping("/")
+    @RequestMapping("/health-status")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "Healthy!";
     }
 }
